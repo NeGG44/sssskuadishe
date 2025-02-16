@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #007BFF;
+    border-radius: 50%; /* Круглая форма */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.tabs {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #0056b3;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.contacts-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacts-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
